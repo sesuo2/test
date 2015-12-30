@@ -1,0 +1,23 @@
+{
+  "name": "sesuo2/test",
+  "type": "library",
+  "description": "Composer test",
+  "keywords": ["test"],
+  "homepage": "https://sesuo2.com/test",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Piotr Leżoń",
+      "email": "piotr.lezon@onet.pl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Test": "src"
+    }
+  }
+}
